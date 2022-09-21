@@ -1,10 +1,17 @@
 {
   "name": "01-node",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Node Js Homework",
   "scripts": {
-    "start": "nodemon bash.js"
+    "start": "nodemon bash.js",
+    "antes": "node bash.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2"
+  },
+  "main": "bash.js",
+  "keywords": []
 }
